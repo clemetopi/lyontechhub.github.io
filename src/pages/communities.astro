@@ -32,9 +32,9 @@ const communities = getList();
                                     <p class="card-header-title">{community.name}</p>
                                   </a>
                                 </header>
-                                <div class="card-image">
+                                <div class="card-image has-text-centered">
                                     <a href={`/community/` + community.key}>
-                                      <figure class="image">
+                                      <figure class="image is-128x128 is-inline-block">
                                         <img src={`/imgs/communities/` + community.image}
                                              alt={community.name}
                                              onerror="this.onerror=null;this.src='/imgs/noLogo.png';"

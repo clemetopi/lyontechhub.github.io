@@ -41,9 +41,9 @@ const conferences: Conference[] = globFiles['../../data/conferences.json'].defau
                                         <p class="card-header-title">{conference.name}</p>
                                       </a>
                                     </header>
-                                    <div class="card-image p-6">
+                                    <div class="card-image p-6 has-text-centered">
                                       <a href={conference.url} target="_blank">
-                                        <figure class="image">
+                                        <figure class="image is-128x128 is-inline-block">
                                           <img src={"/imgs/conferences/" + conference.image} onerror="this.onerror=null;this.src='/imgs/noLogo.png';" />
                                         </figure>
                                       </a>
